@@ -1,7 +1,8 @@
-plugins
 libraries
 versions
 cache
 banned-ips.json
 banned-players.json
 logs
+plugins\playit-gg
+plugins\playit-minecraft-plugin.jar
