@@ -1,155 +1,169 @@
-[16:54:42] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:54:44] [ServerMain/INFO]: Loaded 1174 recipes
-[16:54:44] [ServerMain/INFO]: Loaded 1271 advancements
-[16:54:44] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[16:54:44] [Server thread/INFO]: Loading properties
-[16:54:44] [Server thread/INFO]: This server is running Paper version git-Paper-448 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: a0931f4)
-[16:54:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:54:45] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:54:45] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[17:13:11] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:13:13] [ServerMain/INFO]: Loaded 1174 recipes
+[17:13:13] [ServerMain/INFO]: Loaded 1271 advancements
+[17:13:13] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[17:13:13] [Server thread/INFO]: Loading properties
+[17:13:14] [Server thread/INFO]: This server is running Paper version git-Paper-448 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: a0931f4)
+[17:13:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:13:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:13:15] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[16:54:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 5 worker threads, and gen parallelism of 5 threads
-[16:54:45] [Server thread/INFO]: Default game type: SURVIVAL
-[16:54:45] [Server thread/INFO]: Generating keypair
-[16:54:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:54:46] [Server thread/INFO]: Using default channel type
-[16:54:46] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[16:54:46] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[16:54:46] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
-[16:54:46] [Server thread/INFO]: [BlockLocker] Loading server plugin BlockLocker v1.12.1
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Loading server plugin AdvancedTeleport v6.0.0
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for gson
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for gson
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for jar-relocator
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for jar-relocator
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for asm
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for asm
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for asm-commons
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for asm-commons
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for gson
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for gson
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for kotlin-stdlib-jdk8
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for kotlin-stdlib-jdk8
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for kotlin-stdlib
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for kotlin-stdlib
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for kotlin-stdlib-common
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for kotlin-stdlib-common
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for annotations
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for annotations
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for kotlin-stdlib-jdk7
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for kotlin-stdlib-jdk7
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for kotlin-reflect
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for kotlin-reflect
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-api
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-api
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-key
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-key
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for examination-api
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for examination-api
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for examination-string
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for examination-string
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-minimessage
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-minimessage
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-bukkit
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-bukkit
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-gson-legacy-impl
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-gson-legacy-impl
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-gson
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-gson
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-nbt
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-nbt
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-facet
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-facet
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-api
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-api
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-viaversion
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-viaversion
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-bungeecord
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-bungeecord
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-legacy
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-legacy
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for bstats-bukkit
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for bstats-bukkit
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for bstats-base
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for bstats-base
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for paperlib
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for paperlib
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for ConfigurationMaster-API
-[16:54:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for ConfigurationMaster-API
-[16:54:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:54:46] [Server thread/INFO]: [BlockLocker] Enabling BlockLocker v1.12.1
-[16:54:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:54:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:54:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:54:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:54:46] [Server thread/INFO]: Preparing level "world"
-[16:54:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:54:47] [Server thread/INFO]: Time elapsed: 336 ms
-[16:54:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:54:47] [Server thread/INFO]: Time elapsed: 20 ms
-[16:54:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:54:47] [Server thread/INFO]: Time elapsed: 14 ms
-[16:54:47] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
-[16:54:48] [Thread-10/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[16:54:48] [Thread-10/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[16:54:48] [Server thread/INFO]: [AdvancedTeleport] Enabling AdvancedTeleport v6.0.0
-[16:54:48] [Server thread/INFO]: [AdvancedTeleport] Performing server version check.
-[16:54:48] [Server thread/INFO]: [AdvancedTeleport] Detected major version: 20
-[16:54:48] [Server thread/INFO]: [AdvancedTeleport] Advanced Teleport is now enabling...
-[16:54:48] [Server thread/INFO]: [AdvancedTeleport] Setting up permissions integration with Vault.
-[16:54:48] [Server thread/INFO]: [AdvancedTeleport] Vault is not on the server, skipping.
-[16:54:48] [Server thread/INFO]: [AdvancedTeleport] Loading MainConfig.
-[16:54:48] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command tpa! Error message: net/milkbowl/vault/economy/Economy
-[16:54:48] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command tpahere! Error message: net/milkbowl/vault/economy/Economy
-[16:54:48] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command tpr! Error message: net/milkbowl/vault/economy/Economy
-[16:54:48] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command spawn! Error message: net/milkbowl/vault/economy/Economy
-[16:54:48] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command warp! Error message: net/milkbowl/vault/economy/Economy
-[16:54:48] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command home! Error message: net/milkbowl/vault/economy/Economy
-[16:54:48] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command back! Error message: net/milkbowl/vault/economy/Economy
-[16:54:49] [Server thread/INFO]: [AdvancedTeleport] Registered the image warp_default!
-[16:54:49] [Server thread/INFO]: [AdvancedTeleport] Registered the image home_default!
-[16:54:49] [Server thread/INFO]: [AdvancedTeleport] Registered the image spawn_default!
-[16:54:49] [Server thread/INFO]: Running delayed init tasks
-[16:54:49] [Server thread/INFO]: Done (4.624s)! For help, type "help"
-[16:54:49] [Server thread/INFO]: Timings Reset
-[16:54:49] [Craft Scheduler Thread - 6 - AdvancedTeleport/INFO]: [AdvancedTeleport] Preparing random teleportation locations. If your server performance or memory suffers, please set `use-rapid-response` to false in the config.yml file.
-[16:54:50] [Craft Scheduler Thread - 6 - AdvancedTeleport/INFO]: [AdvancedTeleport] A new version is available!
-[16:54:50] [Craft Scheduler Thread - 6 - AdvancedTeleport/INFO]: [AdvancedTeleport] Current version you're using: 6.0.0
-[16:54:50] [Craft Scheduler Thread - 6 - AdvancedTeleport/INFO]: [AdvancedTeleport] Latest version available: 6.0.1
-[16:54:50] [Craft Scheduler Thread - 6 - AdvancedTeleport/INFO]: [AdvancedTeleport] Download link: https://www.spigotmc.org/resources/advancedteleport.64139/
-[16:54:51] [Thread-10/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: others-forced.joinmc.link
-[16:54:51] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
-[16:54:51] [Thread-10/INFO]: playit.gg: tunnel setup
-[16:54:51] [Thread-10/INFO]: playit.gg: others-forced.joinmc.link
-[16:54:52] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[16:54:53] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[16:55:02] [Server thread/INFO]: Stopping the server
-[16:55:02] [Server thread/INFO]: Stopping server
-[16:55:02] [Server thread/INFO]: [AdvancedTeleport] Disabling AdvancedTeleport v6.0.0
-[16:55:02] [Server thread/INFO]: [BlockLocker] Disabling BlockLocker v1.12.1
-[16:55:02] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
-[16:55:02] [Server thread/INFO]: Saving players
-[16:55:02] [Server thread/INFO]: Saving worlds
-[16:55:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:55:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[16:55:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[16:55:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[16:55:02] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 0.54s
-[16:55:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:55:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[16:55:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[16:55:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[16:55:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[16:55:03] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.38s
-[16:55:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:55:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[16:55:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[16:55:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[16:55:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[16:55:03] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.09s
-[16:55:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:55:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:55:03] [Server thread/INFO]: Flushing Chunk IO
-[16:55:03] [Server thread/INFO]: Closing Thread Pool
-[16:55:03] [Server thread/INFO]: Closing Server
+[17:13:15] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[17:13:15] [Server thread/INFO]: Default game type: SURVIVAL
+[17:13:15] [Server thread/INFO]: Generating keypair
+[17:13:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:13:15] [Server thread/INFO]: Using default channel type
+[17:13:15] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[17:13:15] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[17:13:15] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[17:13:15] [Server thread/INFO]: [BlockLocker] Loading server plugin BlockLocker v1.12.1
+[17:13:15] [Server thread/INFO]: [AdvancedTeleport] Loading server plugin AdvancedTeleport v6.0.0
+[17:13:15] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for gson
+[17:13:15] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for gson
+[17:13:15] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for jar-relocator
+[17:13:15] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for jar-relocator
+[17:13:15] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for asm
+[17:13:15] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for asm
+[17:13:15] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for asm-commons
+[17:13:15] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for asm-commons
+[17:13:15] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for gson
+[17:13:15] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for gson
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for kotlin-stdlib-jdk8
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for kotlin-stdlib-jdk8
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for kotlin-stdlib
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for kotlin-stdlib
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for kotlin-stdlib-common
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for kotlin-stdlib-common
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for annotations
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for annotations
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for kotlin-stdlib-jdk7
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for kotlin-stdlib-jdk7
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for kotlin-reflect
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for kotlin-reflect
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-api
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-api
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-key
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-key
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for examination-api
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for examination-api
+[17:13:16] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for examination-string
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for examination-string
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-minimessage
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-minimessage
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-bukkit
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-bukkit
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-gson-legacy-impl
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-gson-legacy-impl
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-gson
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-gson
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-nbt
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-nbt
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-facet
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-facet
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-api
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-api
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-viaversion
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-viaversion
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-bungeecord
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-bungeecord
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-legacy
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-legacy
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for bstats-bukkit
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for bstats-bukkit
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for bstats-base
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for bstats-base
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for paperlib
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for paperlib
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for ConfigurationMaster-API
+[17:13:17] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for ConfigurationMaster-API
+[17:13:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:13:17] [Server thread/INFO]: [BlockLocker] Enabling BlockLocker v1.12.1
+[17:13:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:13:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:13:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:13:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:13:19] [Server thread/INFO]: Preparing level "world"
+[17:13:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:13:20] [Server thread/INFO]: Time elapsed: 253 ms
+[17:13:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:13:20] [Server thread/INFO]: Time elapsed: 75 ms
+[17:13:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:13:20] [Server thread/INFO]: Time elapsed: 30 ms
+[17:13:20] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[17:13:21] [Thread-8/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[17:13:21] [Thread-8/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[17:13:21] [Server thread/INFO]: [AdvancedTeleport] Enabling AdvancedTeleport v6.0.0
+[17:13:21] [Server thread/INFO]: [AdvancedTeleport] Performing server version check.
+[17:13:21] [Server thread/INFO]: [AdvancedTeleport] Detected major version: 20
+[17:13:21] [Server thread/INFO]: [AdvancedTeleport] Advanced Teleport is now enabling...
+[17:13:21] [Server thread/INFO]: [AdvancedTeleport] Setting up permissions integration with Vault.
+[17:13:21] [Server thread/INFO]: [AdvancedTeleport] Vault is not on the server, skipping.
+[17:13:21] [Server thread/INFO]: [AdvancedTeleport] Loading MainConfig.
+[17:13:21] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command tpa! Error message: net/milkbowl/vault/economy/Economy
+[17:13:21] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command tpahere! Error message: net/milkbowl/vault/economy/Economy
+[17:13:21] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command tpr! Error message: net/milkbowl/vault/economy/Economy
+[17:13:21] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command spawn! Error message: net/milkbowl/vault/economy/Economy
+[17:13:21] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command warp! Error message: net/milkbowl/vault/economy/Economy
+[17:13:21] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command home! Error message: net/milkbowl/vault/economy/Economy
+[17:13:21] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command back! Error message: net/milkbowl/vault/economy/Economy
+[17:13:21] [Server thread/INFO]: [AdvancedTeleport] Registered the image warp_default!
+[17:13:21] [Server thread/INFO]: [AdvancedTeleport] Registered the image home_default!
+[17:13:21] [Server thread/INFO]: [AdvancedTeleport] Registered the image spawn_default!
+[17:13:21] [Server thread/INFO]: Running delayed init tasks
+[17:13:21] [Server thread/INFO]: Done (7.847s)! For help, type "help"
+[17:13:21] [Server thread/INFO]: Timings Reset
+[17:13:21] [Craft Scheduler Thread - 6 - AdvancedTeleport/INFO]: [AdvancedTeleport] Preparing random teleportation locations. If your server performance or memory suffers, please set `use-rapid-response` to false in the config.yml file.
+[17:13:23] [Craft Scheduler Thread - 6 - AdvancedTeleport/INFO]: [AdvancedTeleport] A new version is available!
+[17:13:23] [Craft Scheduler Thread - 6 - AdvancedTeleport/INFO]: [AdvancedTeleport] Current version you're using: 6.0.0
+[17:13:23] [Craft Scheduler Thread - 6 - AdvancedTeleport/INFO]: [AdvancedTeleport] Latest version available: 6.0.1
+[17:13:23] [Craft Scheduler Thread - 6 - AdvancedTeleport/INFO]: [AdvancedTeleport] Download link: https://www.spigotmc.org/resources/advancedteleport.64139/
+[17:13:23] [Thread-8/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: others-forced.joinmc.link
+[17:13:23] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[17:13:23] [Thread-8/INFO]: playit.gg: tunnel setup
+[17:13:23] [Thread-8/INFO]: playit.gg: others-forced.joinmc.link
+[17:13:25] [Thread-8/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[17:14:13] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.141.181:62580, peerAddr=49.43.161.209:59147, claimAddress=[2602:fbaf:0830:0000:0000:0000:0000:0002]:43784, claimToken=[44, 0, 60, -47, 25, -115, -75, -12, 116, 49, 43, -95, -47, -25, 11, 110, -53, 67, 105, -85, 8, 101, -16, 63, -1, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 44, 76, -33, 105, -85, 8, 0, 0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -64, 32, -117, 104, -46, 7, 69, -54, -58, -32, -126, 61, -107, 108, 98, -109], tunnelServerId=1, dataCenterId=12}
+[17:14:13] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[17:14:13] [Thread-8/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /[2602:fbaf:830:0:0:0:0:2]:43784 to claim client
+[17:14:14] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[17:14:14] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[17:14:14] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[17:14:14] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[17:14:14] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[17:14:14] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[17:14:14] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[17:14:14] [User Authenticator #0/INFO]: UUID of player chiyari is a82cb3f6-f06d-3cbf-badf-c61a6a0a80cf
+[17:14:15] [Server thread/INFO]: chiyari joined the game
+[17:14:15] [Server thread/INFO]: chiyari[/127.0.0.1:59155] logged in with entity id 131 at ([world]-1983.687122282761, 95.0, -1607.8940532480258)
+[17:14:57] [Server thread/INFO]: chiyari lost connection: Disconnected
+[17:14:57] [Server thread/INFO]: chiyari left the game
+[17:15:01] [Server thread/INFO]: Stopping the server
+[17:15:01] [Server thread/INFO]: Stopping server
+[17:15:01] [Server thread/INFO]: [AdvancedTeleport] Disabling AdvancedTeleport v6.0.0
+[17:15:01] [Server thread/INFO]: [BlockLocker] Disabling BlockLocker v1.12.1
+[17:15:01] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[17:15:01] [Server thread/INFO]: Saving players
+[17:15:01] [Server thread/INFO]: Saving worlds
+[17:15:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:15:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:15:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:15:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:15:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 32 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[17:15:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:15:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:15:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:15:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:15:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:15:02] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 89 entity chunks, 0 poi chunks in world 'world_nether' in 0.20s
+[17:15:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:15:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:15:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:15:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:15:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:15:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[17:15:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:15:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:15:02] [Server thread/INFO]: Flushing Chunk IO
+[17:15:02] [Server thread/INFO]: Closing Thread Pool
+[17:15:02] [Server thread/INFO]: Closing Server
