@@ -2202,7 +2202,8 @@
     "criteria": {
       "minecraft:crimson_forest": "2024-03-09 23:05:09 +0530",
       "minecraft:nether_wastes": "2024-03-10 03:41:49 +0530",
-      "minecraft:soul_sand_valley": "2024-03-10 03:42:00 +0530"
+      "minecraft:soul_sand_valley": "2024-03-10 03:42:00 +0530",
+      "minecraft:warped_forest": "2024-03-12 00:28:07 +0530"
     },
     "done": false
   },
@@ -3229,6 +3230,66 @@
   "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
     "criteria": {
       "has_eye_armor_trim_smithing_template": "2024-03-11 21:56:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2024-03-11 23:50:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2024-03-12 00:17:59 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2024-03-12 00:17:59 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2024-03-12 00:17:59 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2024-03-12 00:17:59 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2024-03-12 00:17:59 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2024-03-12 00:17:59 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2024-03-12 00:20:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2024-03-12 00:20:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2024-03-12 00:20:46 +0530"
     },
     "done": true
   },

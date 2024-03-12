@@ -9,11 +9,14 @@
     "criteria": {
       "minecraft:beach": "2024-03-08 21:56:14 +0530",
       "minecraft:forest": "2024-03-08 22:21:25 +0530",
+      "minecraft:sparse_jungle": "2024-03-11 23:06:40 +0530",
       "minecraft:ocean": "2024-03-11 16:15:57 +0530",
+      "minecraft:jungle": "2024-03-11 23:10:21 +0530",
       "minecraft:deep_ocean": "2024-03-11 16:16:13 +0530",
       "minecraft:sunflower_plains": "2024-03-11 16:13:20 +0530",
       "minecraft:lukewarm_ocean": "2024-03-08 22:01:42 +0530",
       "minecraft:river": "2024-03-08 22:21:19 +0530",
+      "minecraft:savanna": "2024-03-11 23:42:06 +0530",
       "minecraft:plains": "2024-03-08 21:46:01 +0530",
       "minecraft:deep_lukewarm_ocean": "2024-03-11 16:17:38 +0530"
     },
@@ -407,6 +410,7 @@
       "cooked_cod": "2024-03-09 00:03:52 +0530",
       "cooked_beef": "2024-03-08 23:06:46 +0530",
       "cod": "2024-03-09 00:31:27 +0530",
+      "melon_slice": "2024-03-11 23:21:46 +0530",
       "cooked_salmon": "2024-03-10 22:30:50 +0530"
     },
     "done": false
@@ -2220,39 +2224,153 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+  "minecraft:recipes/building_blocks/cherry_planks": {
     "criteria": {
-      "has_mossy_cobblestone": "2024-03-12 17:14:36 +0530"
+      "has_log": "2024-03-11 22:57:28 +0530"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+  "minecraft:recipes/building_blocks/cherry_wood": {
     "criteria": {
-      "has_mossy_cobblestone": "2024-03-12 17:14:36 +0530"
+      "has_log": "2024-03-11 22:57:28 +0530"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
     "criteria": {
-      "has_mossy_cobblestone": "2024-03-12 17:14:36 +0530"
+      "has_bamboo": "2024-03-11 23:10:31 +0530"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+  "minecraft:recipes/building_blocks/bamboo_block": {
     "criteria": {
-      "has_mossy_cobblestone": "2024-03-12 17:14:36 +0530"
+      "has_bamboo": "2024-03-11 23:10:31 +0530"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+  "minecraft:recipes/decorations/scaffolding": {
     "criteria": {
-      "has_mossy_cobblestone": "2024-03-12 17:14:36 +0530"
+      "has_bamboo": "2024-03-11 23:10:31 +0530"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+  "minecraft:adventure/shoot_arrow": {
     "criteria": {
-      "has_mossy_cobblestone": "2024-03-12 17:14:36 +0530"
+      "shot_arrow": "2024-03-11 23:15:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2024-03-11 23:16:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2024-03-11 23:16:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2024-03-11 23:17:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2024-03-11 23:17:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2024-03-11 23:17:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-03-11 23:20:02 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2024-03-11 23:31:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2024-03-11 23:31:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2024-03-11 23:46:47 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2024-03-11 23:48:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-03-11 23:48:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-03-11 23:48:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2024-03-11 23:48:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2024-03-11 23:57:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2024-03-11 23:57:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2024-03-11 23:57:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2024-03-11 23:57:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-03-11 23:57:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2024-03-12 00:05:16 +0530"
     },
     "done": true
   },
