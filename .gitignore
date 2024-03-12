@@ -4,5 +4,5 @@ cache
 banned-ips.json
 banned-players.json
 logs
-/plugins/playit-gg/
+plugins/playit-gg/config.yml
 /plugins/playit-minecraft-plugin.jar
