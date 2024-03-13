@@ -9,13 +9,17 @@
     "criteria": {
       "minecraft:beach": "2024-03-08 21:56:14 +0530",
       "minecraft:forest": "2024-03-08 22:21:25 +0530",
+      "minecraft:taiga": "2024-03-12 22:34:48 +0530",
       "minecraft:sparse_jungle": "2024-03-11 23:06:40 +0530",
-      "minecraft:ocean": "2024-03-11 16:15:57 +0530",
-      "minecraft:jungle": "2024-03-11 23:10:21 +0530",
       "minecraft:deep_ocean": "2024-03-11 16:16:13 +0530",
-      "minecraft:sunflower_plains": "2024-03-11 16:13:20 +0530",
       "minecraft:lukewarm_ocean": "2024-03-08 22:01:42 +0530",
       "minecraft:river": "2024-03-08 22:21:19 +0530",
+      "minecraft:old_growth_birch_forest": "2024-03-12 22:22:58 +0530",
+      "minecraft:ocean": "2024-03-11 16:15:57 +0530",
+      "minecraft:jungle": "2024-03-11 23:10:21 +0530",
+      "minecraft:sunflower_plains": "2024-03-11 16:13:20 +0530",
+      "minecraft:cherry_grove": "2024-03-12 23:09:05 +0530",
+      "minecraft:birch_forest": "2024-03-12 22:36:48 +0530",
       "minecraft:savanna": "2024-03-11 23:42:06 +0530",
       "minecraft:plains": "2024-03-08 21:46:01 +0530",
       "minecraft:deep_lukewarm_ocean": "2024-03-11 16:17:38 +0530"
@@ -48,6 +52,7 @@
       "minecraft:wither_skeleton": "2024-03-10 22:47:29 +0530",
       "minecraft:zombie": "2024-03-08 22:17:01 +0530",
       "minecraft:creeper": "2024-03-11 16:57:15 +0530",
+      "minecraft:drowned": "2024-03-12 22:14:13 +0530",
       "minecraft:zombie_villager": "2024-03-11 20:54:25 +0530"
     },
     "done": false
@@ -408,10 +413,12 @@
       "rotten_flesh": "2024-03-11 16:15:45 +0530",
       "cooked_mutton": "2024-03-11 16:48:11 +0530",
       "cooked_cod": "2024-03-09 00:03:52 +0530",
+      "sweet_berries": "2024-03-12 23:12:16 +0530",
       "cooked_beef": "2024-03-08 23:06:46 +0530",
       "cod": "2024-03-09 00:31:27 +0530",
       "melon_slice": "2024-03-11 23:21:46 +0530",
-      "cooked_salmon": "2024-03-10 22:30:50 +0530"
+      "cooked_salmon": "2024-03-10 22:30:50 +0530",
+      "carrot": "2024-03-12 21:52:04 +0530"
     },
     "done": false
   },
@@ -1690,7 +1697,8 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:chicken": "2024-03-09 20:11:27 +0530",
-      "minecraft:wolf": "2024-03-11 21:06:02 +0530"
+      "minecraft:wolf": "2024-03-11 21:06:02 +0530",
+      "minecraft:turtle": "2024-03-12 22:39:00 +0530"
     },
     "done": false
   },
@@ -2371,6 +2379,96 @@
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_chestplate": "2024-03-12 00:05:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2024-03-12 21:25:31 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2024-03-12 21:25:31 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_planks": {
+    "criteria": {
+      "has_logs": "2024-03-12 22:04:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-03-12 22:05:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-03-12 22:05:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_slab": {
+    "criteria": {
+      "has_planks": "2024-03-12 22:05:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_button": {
+    "criteria": {
+      "has_planks": "2024-03-12 22:05:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-03-12 22:05:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_stairs": {
+    "criteria": {
+      "has_planks": "2024-03-12 22:05:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_sign": {
+    "criteria": {
+      "has_planks": "2024-03-12 22:05:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_door": {
+    "criteria": {
+      "has_planks": "2024-03-12 22:05:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_fence": {
+    "criteria": {
+      "has_planks": "2024-03-12 22:05:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-03-12 22:17:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2024-03-12 22:17:27 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2024-03-12 22:21:39 +0530"
     },
     "done": true
   },
