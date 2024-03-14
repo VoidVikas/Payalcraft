@@ -1,873 +1,272 @@
-[20:50:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:50:15] [ServerMain/INFO]: Loaded 1174 recipes
-[20:50:16] [ServerMain/INFO]: Loaded 1271 advancements
-[20:50:16] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[20:50:16] [Server thread/INFO]: Loading properties
-[20:50:16] [Server thread/INFO]: This server is running Paper version git-Paper-448 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: a0931f4)
-[20:50:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:50:18] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:50:18] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
-    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
-    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[20:50:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 5 worker threads, and gen parallelism of 5 threads
-[20:50:18] [Server thread/INFO]: Default game type: SURVIVAL
-[20:50:18] [Server thread/INFO]: Generating keypair
-[20:50:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:50:19] [Server thread/INFO]: Using default channel type
-[20:50:19] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[20:50:19] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:50:19] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
-[20:50:19] [Server thread/INFO]: [BlockLocker] Loading server plugin BlockLocker v1.12.1
-[20:50:19] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v11.0.1
-[20:50:19] [Server thread/INFO]: [AdvancedTeleport] Loading server plugin AdvancedTeleport v6.0.0
-[20:50:19] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for gson
-[20:50:19] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for gson
-[20:50:19] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for jar-relocator
-[20:50:19] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for jar-relocator
-[20:50:19] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for asm
-[20:50:19] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for asm
-[20:50:19] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for asm-commons
-[20:50:19] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for asm-commons
-[20:50:19] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for gson
-[20:50:19] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for gson
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for kotlin-stdlib-jdk8
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for kotlin-stdlib-jdk8
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for kotlin-stdlib
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for kotlin-stdlib
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for kotlin-stdlib-common
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for kotlin-stdlib-common
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for annotations
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for annotations
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for kotlin-stdlib-jdk7
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for kotlin-stdlib-jdk7
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for kotlin-reflect
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for kotlin-reflect
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-api
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-api
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-key
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-key
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for examination-api
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for examination-api
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for examination-string
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for examination-string
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-minimessage
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-minimessage
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-bukkit
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-bukkit
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-gson-legacy-impl
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-gson-legacy-impl
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-gson
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-gson
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-nbt
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-nbt
-[20:50:21] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-facet
-[20:50:22] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-facet
-[20:50:22] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-api
-[20:50:22] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-api
-[20:50:22] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-viaversion
-[20:50:22] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-viaversion
-[20:50:22] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-bungeecord
-[20:50:22] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-bungeecord
-[20:50:22] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-legacy
-[20:50:22] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-legacy
-[20:50:22] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for bstats-bukkit
-[20:50:22] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for bstats-bukkit
-[20:50:22] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for bstats-base
-[20:50:22] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for bstats-base
-[20:50:22] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for paperlib
-[20:50:22] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for paperlib
-[20:50:22] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for ConfigurationMaster-API
-[20:50:22] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for ConfigurationMaster-API
-[20:50:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:50:22] [Server thread/INFO]: [BlockLocker] Enabling BlockLocker v1.12.1
-[20:50:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:50:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:50:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:50:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:50:25] [Server thread/INFO]: Preparing level "world"
-[20:50:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:50:27] [Server thread/INFO]: Time elapsed: 1386 ms
-[20:50:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:50:27] [Server thread/INFO]: Time elapsed: 125 ms
-[20:50:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:50:27] [Server thread/INFO]: Time elapsed: 22 ms
-[20:50:27] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
-[20:50:28] [Thread-10/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[20:50:28] [Thread-10/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[20:50:28] [Server thread/INFO]: [AngelChest] Enabling AngelChest v11.0.1
-[20:50:28] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
-[20:50:28] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
-[20:50:28] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
-[20:50:28] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
-[20:50:28] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
-[20:50:28] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v11.0.1 (Premium: false)
-[20:50:28] [Server thread/INFO]: [AdvancedTeleport] Enabling AdvancedTeleport v6.0.0
-[20:50:28] [Server thread/INFO]: [AdvancedTeleport] Performing server version check.
-[20:50:28] [Server thread/INFO]: [AdvancedTeleport] Detected major version: 20
-[20:50:28] [Server thread/INFO]: [AdvancedTeleport] Advanced Teleport is now enabling...
-[20:50:28] [Server thread/INFO]: [AdvancedTeleport] Setting up permissions integration with Vault.
-[20:50:28] [Server thread/INFO]: [AdvancedTeleport] Vault is not on the server, skipping.
-[20:50:28] [Server thread/INFO]: [AdvancedTeleport] Loading MainConfig.
-[20:50:28] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command tpa! Error message: net/milkbowl/vault/economy/Economy
-[20:50:28] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command tpahere! Error message: net/milkbowl/vault/economy/Economy
-[20:50:28] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command tpr! Error message: net/milkbowl/vault/economy/Economy
-[20:50:28] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command spawn! Error message: net/milkbowl/vault/economy/Economy
-[20:50:28] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command warp! Error message: net/milkbowl/vault/economy/Economy
-[20:50:28] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command home! Error message: net/milkbowl/vault/economy/Economy
-[20:50:28] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command back! Error message: net/milkbowl/vault/economy/Economy
-[20:50:29] [Server thread/INFO]: [AdvancedTeleport] Registered the image warp_default!
-[20:50:29] [Server thread/INFO]: [AdvancedTeleport] Registered the image home_default!
-[20:50:29] [Server thread/INFO]: [AdvancedTeleport] Registered the image spawn_default!
-[20:50:29] [Server thread/INFO]: Running delayed init tasks
-[20:50:29] [Server thread/INFO]: Done (12.767s)! For help, type "help"
-[20:50:29] [Craft Scheduler Thread - 7 - AdvancedTeleport/INFO]: [AdvancedTeleport] Preparing random teleportation locations. If your server performance or memory suffers, please set `use-rapid-response` to false in the config.yml file.
-[20:50:29] [Server thread/INFO]: Timings Reset
-[20:50:30] [Craft Scheduler Thread - 7 - AdvancedTeleport/INFO]: [AdvancedTeleport] A new version is available!
-[20:50:30] [Craft Scheduler Thread - 7 - AdvancedTeleport/INFO]: [AdvancedTeleport] Current version you're using: 6.0.0
-[20:50:30] [Craft Scheduler Thread - 7 - AdvancedTeleport/INFO]: [AdvancedTeleport] Latest version available: 6.0.1
-[20:50:30] [Craft Scheduler Thread - 7 - AdvancedTeleport/INFO]: [AdvancedTeleport] Download link: https://www.spigotmc.org/resources/advancedteleport.64139/
-[20:50:30] [Thread-10/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: others-forced.joinmc.link
-[20:50:30] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
-[20:50:30] [Thread-10/INFO]: playit.gg: tunnel setup
-[20:50:30] [Thread-10/INFO]: playit.gg: others-forced.joinmc.link
-[20:50:30] [Thread-10/ERROR]: [gg.playit.minecraft.PlayitManager] failed when communicating with tunnel server, error: java.net.UnknownHostException: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server (control.playit.gg)
-[20:50:32] [Server thread/INFO]: [AngelChest] ========================================================
-[20:50:32] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
-[20:50:32] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
-[20:50:32] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
-[20:50:32] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
-[20:50:32] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
-[20:50:32] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
-[20:50:32] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
-[20:50:32] [Server thread/INFO]: [AngelChest] 
-[20:50:32] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
-[20:50:32] [Server thread/INFO]: [AngelChest] ========================================================
-[20:50:35] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] failed to connect, retrying
-[20:50:35] [Thread-10/ERROR]: [gg.playit.minecraft.PlayitManager] failed when communicating with tunnel server, error: java.net.UnknownHostException: control.playit.gg
-[20:50:40] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] failed to connect, retrying
-[20:50:41] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[20:50:42] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[20:50:43] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[20:54:45] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[20:58:46] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[21:02:47] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[21:06:48] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[21:10:49] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[21:14:50] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[21:18:51] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[21:22:52] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[21:24:11] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62580, peerAddr=112.196.95.22:64599, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -75, -12, 116, 112, -60, 95, 22, -4, 87, -102, -11, 103, 110, -85, 8, 101, -13, 29, -92, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 44, 76, -54, 110, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -109, 98, -58, 14, -110, -16, 66, 57, 29, 104, -117, -5, -80, -53, 62, 55], tunnelServerId=1, dataCenterId=28}
-[21:24:11] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[21:24:11] [Thread-10/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
-[21:24:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[21:24:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[21:24:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[21:24:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
-[21:24:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
-[21:24:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[21:24:11] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[21:25:12] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62580, peerAddr=112.196.95.22:64627, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -75, -12, 116, 112, -60, 95, 22, -4, 115, 77, 55, 89, -61, -85, 8, 101, -13, 29, -31, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 44, 76, -118, -61, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -29, -34, 23, -47, 47, -80, -8, -47, 57, -57, -79, 12, -18, 72, -79, 71], tunnelServerId=1, dataCenterId=28}
-[21:25:12] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[21:25:12] [Thread-10/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
-[21:25:12] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[21:25:12] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[21:25:13] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[21:25:13] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
-[21:25:13] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
-[21:25:13] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[21:25:13] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[21:25:13] [User Authenticator #0/INFO]: UUID of player AaryanGoswami is 5929f5e4-8688-3605-a4a4-c27ec4fdf955
-[21:25:14] [Server thread/INFO]: AaryanGoswami joined the game
-[21:25:14] [Server thread/INFO]: AaryanGoswami[/127.0.0.1:63114] logged in with entity id 201 at ([world_nether]498.78021034459704, 39.0, -811.9412795480549)
-[21:25:26] [Server thread/INFO]: AaryanGoswami tried to swim in lava
-[21:25:43] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:25:48] [Server thread/INFO]: AaryanGoswami tried to swim in lava
-[21:26:03] [Server thread/INFO]: AaryanGoswami issued server command: /home bestion
-[21:26:19] [Server thread/INFO]: AaryanGoswami tried to swim in lava to escape Hoglin
-[21:26:24] [Server thread/INFO]: AaryanGoswami issued server command: /home bestion
-[21:26:51] [Server thread/INFO]: AaryanGoswami tried to swim in lava
-[21:26:55] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[21:26:57] [Server thread/INFO]: AaryanGoswami issued server command: /home bestion
-[21:27:35] [Server thread/INFO]: AaryanGoswami tried to swim in lava
-[21:27:40] [Server thread/INFO]: AaryanGoswami issued server command: /home bestion
-[21:28:22] [Server thread/INFO]: AaryanGoswami tried to swim in lava
-[21:28:27] [Server thread/INFO]: AaryanGoswami issued server command: /home bestion
-[21:30:32] [Server thread/INFO]: AaryanGoswami tried to swim in lava
-[21:30:42] [Server thread/INFO]: AaryanGoswami issued server command: /home bestion
-[21:30:56] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[21:32:33] [Server thread/INFO]: AaryanGoswami was doomed to fall by Skeleton
-[21:32:43] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:34:57] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[21:36:27] [Server thread/INFO]: AaryanGoswami was slain by Piglin Brute
-[21:37:23] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:37:28] [Server thread/INFO]: AaryanGoswami was slain by Piglin Brute
-[21:37:47] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:37:52] [Server thread/INFO]: AaryanGoswami was slain by Piglin Brute
-[21:38:00] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:38:04] [Server thread/INFO]: AaryanGoswami was slain by Piglin Brute
-[21:38:21] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:38:25] [Server thread/INFO]: AaryanGoswami was slain by Piglin Brute
-[21:38:40] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:38:45] [Server thread/INFO]: AaryanGoswami was slain by Piglin Brute
-[21:38:59] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[21:39:03] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:39:08] [Server thread/INFO]: AaryanGoswami was slain by Piglin Brute
-[21:39:14] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:39:23] [Server thread/INFO]: AaryanGoswami was doomed to fall by Piglin Brute
-[21:40:09] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:40:52] [Server thread/INFO]: AaryanGoswami was slain by Zombified Piglin
-[21:40:57] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:41:23] [Server thread/INFO]: AaryanGoswami was slain by Zombified Piglin
-[21:41:29] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:41:47] [Server thread/INFO]: AaryanGoswami was slain by Zombified Piglin
-[21:41:51] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:43:00] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[21:45:55] [Server thread/INFO]: AaryanGoswami was slain by Piglin
-[21:46:04] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:46:09] [Server thread/INFO]: AaryanGoswami was slain by Piglin
-[21:46:28] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:46:35] [Server thread/INFO]: AaryanGoswami was slain by Piglin
-[21:46:43] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:46:49] [Server thread/INFO]: AaryanGoswami was slain by Piglin
-[21:47:01] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[21:47:16] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:47:25] [Server thread/INFO]: AaryanGoswami was slain by Piglin
-[21:47:34] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:51:03] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[21:53:21] [Server thread/INFO]: AaryanGoswami was slain by Zombified Piglin
-[21:53:25] [Server thread/INFO]: AaryanGoswami issued server command: /back
-[21:55:04] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [Server thread/INFO]: AaryanGoswami lost connection: Disconnected
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:56:56] [Server thread/INFO]: AaryanGoswami left the game
-[21:57:03] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62580, peerAddr=112.196.95.22:65023, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -75, -12, 116, 112, -60, 95, 22, -3, -1, 94, -32, -1, 12, -85, 8, 101, -13, 37, 87, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 44, 76, 87, 12, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -62, 67, -32, -81, -89, 54, 64, 41, 123, 52, -51, -31, -88, -82, 2, 37], tunnelServerId=1, dataCenterId=28}
-[21:57:03] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[21:57:03] [Thread-10/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
-[21:57:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[21:57:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[21:57:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[21:57:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
-[21:57:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
-[21:57:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[21:57:03] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[21:57:03] [User Authenticator #1/INFO]: UUID of player AaryanGoswami is 5929f5e4-8688-3605-a4a4-c27ec4fdf955
-[21:57:04] [Server thread/INFO]: AaryanGoswami joined the game
-[21:57:04] [Server thread/INFO]: AaryanGoswami[/127.0.0.1:64713] logged in with entity id 7709 at ([world_nether]472.67626013947813, 65.0, -787.3981163379864)
-[21:58:34] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:58:34] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[21:58:34] [Server thread/INFO]: AaryanGoswami lost connection: Disconnected
-[21:58:34] [Server thread/INFO]: AaryanGoswami left the game
-[21:58:36] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62580, peerAddr=112.196.95.22:65037, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -75, -12, 116, 112, -60, 95, 22, -2, 13, 127, -46, 54, -36, -85, 8, 101, -13, 37, -76, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 44, 76, -122, -36, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -108, -104, 92, -101, -33, 45, -17, -117, -87, 127, -59, 9, -80, -35, 89, 60], tunnelServerId=1, dataCenterId=28}
-[21:58:36] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[21:58:36] [Thread-10/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
-[21:58:36] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[21:58:36] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[21:58:36] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[21:58:36] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
-[21:58:36] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
-[21:58:36] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[21:58:36] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[21:59:06] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[22:03:07] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[22:07:09] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[22:11:10] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[22:15:11] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[22:19:13] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[22:22:28] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.141.181:62580, peerAddr=49.43.132.7:63122, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -115, -75, -12, 116, 49, 43, -124, 7, -10, -110, 53, 119, -41, 37, -85, 8, 101, -13, 43, 77, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 44, 76, -81, 37, -85, 8, 0, 0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, -11, 117, -14, 110, -11, -6, -90, -117, 92, 123, -98, -65, 99, -29, -111, 2], tunnelServerId=2, dataCenterId=12}
-[22:22:28] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[22:22:28] [Thread-10/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
-[22:22:28] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[22:22:28] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[22:22:28] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[22:22:28] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
-[22:22:28] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
-[22:22:28] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[22:22:28] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[22:22:29] [User Authenticator #2/INFO]: UUID of player skinwalker is 84713605-aeeb-38bf-8ca6-3e17266353e2
-[22:22:29] [Server thread/WARN]: [AdvancedTeleport] First-join teleport point  does not exist.
-[22:22:29] [Server thread/INFO]: skinwalker joined the game
-[22:22:30] [Server thread/INFO]: skinwalker[/127.0.0.1:65228] logged in with entity id 7901 at ([world]-47.5, 76.0, 31.5)
-[22:23:16] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[22:27:18] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[22:29:15] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[22:29:15] [Server thread/INFO]: skinwalker lost connection: Disconnected
-[22:29:15] [Server thread/INFO]: skinwalker left the game
-[22:31:19] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[22:35:20] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[22:39:22] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[22:43:23] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[22:47:24] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[22:51:26] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[22:55:27] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[22:59:29] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[23:03:30] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[23:07:32] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[23:11:33] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[23:15:35] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[23:19:36] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[23:23:37] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[23:27:39] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[23:31:40] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[23:32:26] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.141.181:62580, peerAddr=49.43.161.209:53541, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -115, -75, -12, 116, 49, 43, -95, -47, -47, 37, 94, -54, 73, 33, -85, 8, 101, -13, 59, -77, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 44, 76, -59, 33, -85, 8, 0, 0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 78, -58, -6, -122, -54, -124, -34, -88, -5, -99, 110, 39, -78, 103, -45, -120], tunnelServerId=2, dataCenterId=12}
-[23:32:26] [Thread-10/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[23:32:26] [Thread-10/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
-[23:32:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[23:32:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[23:32:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[23:32:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
-[23:32:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
-[23:32:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[23:32:26] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[23:32:27] [User Authenticator #3/INFO]: UUID of player chiyari is a82cb3f6-f06d-3cbf-badf-c61a6a0a80cf
-[23:32:28] [Server thread/INFO]: chiyari joined the game
-[23:32:28] [Server thread/INFO]: chiyari[/127.0.0.1:49256] logged in with entity id 8877 at ([world]-43.259268905275434, 78.0, 51.905663607600665)
-[23:35:42] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[23:37:37] [Server thread/INFO]: chiyari issued server command: /stop
-[23:37:37] [Server thread/INFO]: [chiyari: Stopping the server]
-[23:37:37] [Server thread/INFO]: Stopping server
-[23:37:37] [Server thread/INFO]: [AdvancedTeleport] Disabling AdvancedTeleport v6.0.0
-[23:37:37] [Server thread/INFO]: [AngelChest] Disabling AngelChest v11.0.1
-[23:37:37] [Server thread/INFO]: [BlockLocker] Disabling BlockLocker v1.12.1
-[23:37:37] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
-[23:37:37] [Server thread/INFO]: Saving players
-[23:37:37] [Server thread/INFO]: chiyari lost connection: Server closed
-[23:37:37] [Server thread/INFO]: chiyari left the game
-[23:37:37] [Server thread/INFO]: Saving worlds
-[23:37:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:37:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[23:37:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[23:37:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[23:37:37] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 105 entity chunks, 0 poi chunks in world 'world' in 0.02s
-[23:37:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:37:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:37:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[23:37:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[23:37:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[23:37:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 34 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[23:37:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:37:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:37:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[23:37:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[23:37:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[23:37:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[23:37:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:37:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:37:37] [Server thread/INFO]: Flushing Chunk IO
-[23:37:37] [Server thread/INFO]: Closing Thread Pool
-[23:37:37] [Server thread/INFO]: Closing Server
+[00:02:49] [Server thread/INFO]: chiyari issued server command: /save-all
+[00:02:49] [Server thread/INFO]: [chiyari: Saved the game]
+[00:03:16] [Thread-8/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:03:57] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62828, peerAddr=110.227.33.42:24175, claimAddress=[2602:fbaf:082c:0000:0000:0000:0000:0002]:41736, claimToken=[44, 0, 60, -47, 25, -113, -75, -11, 108, 110, -29, 33, 42, 94, 111, -77, 46, -72, -8, -93, 8, 101, -13, 67, 8, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 40, 29, 111, -8, -93, 8, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 40, -29, -59, 84, 49, 15, -113, 1, 35, 37, 18, 109, -115, 48, 125, 75], tunnelServerId=1, dataCenterId=33}
+[00:03:57] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[00:03:57] [Thread-8/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /[2602:fbaf:82c:0:0:0:0:2]:41736 to claim client
+[00:03:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[00:03:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[00:03:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[00:03:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[00:03:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[00:03:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[00:03:57] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[00:04:01] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62828, peerAddr=110.227.33.42:24092, claimAddress=[2602:fbaf:082c:0000:0000:0000:0000:0002]:41736, claimToken=[44, 0, 60, -47, 25, -113, -75, -11, 108, 110, -29, 33, 42, 94, 28, -121, -103, 113, -29, -93, 8, 101, -13, 67, 12, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 40, 29, 35, -29, -93, 8, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -71, 98, 46, -32, 75, -48, -53, -108, -35, -30, 77, -48, -83, 123, -69, 21], tunnelServerId=1, dataCenterId=33}
+[00:04:01] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[00:04:01] [Thread-8/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /[2602:fbaf:82c:0:0:0:0:2]:41736 to claim client
+[00:04:01] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[00:04:01] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[00:04:01] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[00:04:01] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[00:04:01] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[00:04:01] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[00:04:01] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[00:04:06] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62828, peerAddr=110.227.33.42:24163, claimAddress=[2602:fbaf:082c:0000:0000:0000:0000:0002]:41736, claimToken=[44, 0, 60, -47, 25, -113, -75, -11, 108, 110, -29, 33, 42, 94, 99, 32, 31, 43, -62, -93, 8, 101, -13, 67, 16, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 40, 29, 74, -62, -93, 8, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 37, -17, 99, -89, 56, 59, 62, -58, 114, -114, 4, 27, 66, -14, 78, -5], tunnelServerId=1, dataCenterId=33}
+[00:04:06] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[00:04:06] [Thread-8/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /[2602:fbaf:82c:0:0:0:0:2]:41736 to claim client
+[00:04:06] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[00:04:06] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[00:04:40] [nioEventLoopGroup-2-1/WARN]: [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:04:45] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62828, peerAddr=110.227.33.42:24162, claimAddress=[2602:fbaf:082c:0000:0000:0000:0000:0002]:41736, claimToken=[44, 0, 60, -47, 25, -113, -75, -11, 108, 110, -29, 33, 42, 94, 98, -76, -90, -16, 76, -93, 8, 101, -13, 67, 56, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 40, 29, -117, 76, -93, 8, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 47, -58, 71, 11, 118, 50, -49, -11, -49, -48, -95, 87, 37, 116, -26, 99], tunnelServerId=1, dataCenterId=33}
+[00:04:45] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[00:04:45] [Thread-8/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /[2602:fbaf:82c:0:0:0:0:2]:41736 to claim client
+[00:04:45] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[00:04:45] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[00:04:46] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[00:04:46] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[00:04:46] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[00:04:46] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[00:04:46] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[00:04:47] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62828, peerAddr=110.227.33.42:24166, claimAddress=[2602:fbaf:082c:0000:0000:0000:0000:0002]:41736, claimToken=[44, 0, 60, -47, 25, -113, -75, -11, 108, 110, -29, 33, 42, 94, 102, -33, 57, -110, -29, -93, 8, 101, -13, 67, 58, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 40, 29, -11, -29, -93, 8, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 28, 62, -3, 49, -113, 104, 99, 99, 52, 23, 125, -40, -87, 71, 82, 41], tunnelServerId=1, dataCenterId=33}
+[00:04:47] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[00:04:47] [Thread-8/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /[2602:fbaf:82c:0:0:0:0:2]:41736 to claim client
+[00:04:47] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[00:04:47] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[00:05:02] [Server thread/INFO]: chiyari lost connection: Disconnected
+[00:05:02] [Server thread/INFO]: chiyari left the game
+[00:05:18] [nioEventLoopGroup-2-4/WARN]: [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:05:36] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62828, peerAddr=110.227.33.42:24090, claimAddress=[2602:fbaf:082c:0000:0000:0000:0000:0002]:41736, claimToken=[44, 0, 60, -47, 25, -113, -75, -11, 108, 110, -29, 33, 42, 94, 26, 83, -13, -8, 67, -93, 8, 101, -13, 67, 107, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 40, 29, -51, 67, -93, 8, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -95, 98, 7, 29, -37, -113, -77, 96, -80, -56, -5, 36, -53, 107, -5, -58], tunnelServerId=1, dataCenterId=33}
+[00:05:36] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[00:05:36] [Thread-8/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /[2602:fbaf:82c:0:0:0:0:2]:41736 to claim client
+[00:05:36] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[00:05:36] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[00:05:36] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62828, peerAddr=110.227.33.42:24161, claimAddress=[2602:fbaf:082c:0000:0000:0000:0000:0002]:41736, claimToken=[44, 0, 60, -47, 25, -113, -75, -11, 108, 110, -29, 33, 42, 94, 97, 89, -13, 4, -64, -93, 8, 101, -13, 67, 107, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 40, 29, -106, -64, -93, 8, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 47, -99, -122, -27, 48, -39, -36, 106, -81, -49, 32, 106, -18, 40, -78, -5], tunnelServerId=1, dataCenterId=33}
+[00:05:36] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[00:05:36] [Thread-8/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /[2602:fbaf:82c:0:0:0:0:2]:41736 to claim client
+[00:05:37] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[00:05:37] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[00:05:37] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[00:05:37] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[00:05:37] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[00:05:37] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[00:05:37] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[00:05:38] [User Authenticator #1/INFO]: UUID of player Bravo-1-4 is 33782974-e58f-366c-9d81-5d06879193e2
+[00:05:39] [Server thread/INFO]: Bravo-1-4 joined the game
+[00:05:39] [Server thread/INFO]: Bravo-1-4[/127.0.0.1:54261] logged in with entity id 2566 at ([world]-24.69999998807907, 72.0, 13.300000011920929)
+[00:06:08] [nioEventLoopGroup-2-1/WARN]: [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:06:15] [User Authenticator #1/INFO]: UUID of player chiyari is a82cb3f6-f06d-3cbf-badf-c61a6a0a80cf
+[00:06:16] [Server thread/INFO]: chiyari joined the game
+[00:06:16] [Server thread/INFO]: chiyari[/127.0.0.1:54299] logged in with entity id 2633 at ([world]-60.47837638077181, 76.0, 42.89197727414903)
+[00:07:03] [Thread-8/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:07:26] [Server thread/INFO]: Bravo-1-4 has made the advancement [We Need to Go Deeper]
+[00:07:40] [Server thread/INFO]: chiyari issued server command: /tp Bravo-1-4
+[00:07:40] [Server thread/INFO]: [chiyari: Teleported chiyari to Bravo-1-4]
+[00:10:51] [Thread-8/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:14:39] [Thread-8/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:16:18] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62828, peerAddr=49.156.111.39:9636, claimAddress=[2602:fbaf:082c:0000:0000:0000:0000:0002]:43784, claimToken=[44, 0, 60, -47, 25, -113, -75, -11, 108, 49, -100, 111, 39, 37, -92, 59, 58, 31, 103, -85, 8, 101, -13, 69, -19, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 40, 29, -107, 103, -85, 8, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -126, -56, -37, -33, 71, -31, 6, -116, -4, 47, 10, 92, -67, 41, -102, 35], tunnelServerId=1, dataCenterId=33}
+[00:16:18] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[00:16:18] [Thread-8/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /[2602:fbaf:82c:0:0:0:0:2]:43784 to claim client
+[00:16:18] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[00:16:18] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[00:16:19] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[00:16:19] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[00:16:19] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[00:16:19] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[00:16:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[00:16:23] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62828, peerAddr=49.156.111.39:9653, claimAddress=[2602:fbaf:082c:0000:0000:0000:0000:0002]:43784, claimToken=[44, 0, 60, -47, 25, -113, -75, -11, 108, 49, -100, 111, 39, 37, -75, -80, -97, 46, 94, -85, 8, 101, -13, 69, -14, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 40, 29, 76, 94, -85, 8, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -71, -107, 112, -5, -43, -93, -101, -32, 30, -45, -55, 64, -22, 80, 103, -110], tunnelServerId=1, dataCenterId=33}
+[00:16:23] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[00:16:23] [Thread-8/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /[2602:fbaf:82c:0:0:0:0:2]:43784 to claim client
+[00:16:23] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[00:16:23] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[00:16:23] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[00:16:23] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[00:16:23] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[00:16:23] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[00:16:23] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[00:16:24] [User Authenticator #2/INFO]: UUID of player sexsooxdevta is 0fdf2cad-77ad-3d09-8018-7c4720353068
+[00:16:25] [Server thread/INFO]: sexsooxdevta joined the game
+[00:16:25] [Server thread/INFO]: sexsooxdevta[/127.0.0.1:54436] logged in with entity id 4314 at ([world]-21.52583728554021, 72.0, 19.847875229488363)
+[00:18:26] [Thread-8/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:19:18] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62828, peerAddr=112.196.95.22:60725, claimAddress=[2602:fbaf:082c:0000:0000:0000:0000:0002]:43784, claimToken=[44, 0, 60, -47, 25, -113, -75, -11, 108, 112, -60, 95, 22, -19, 53, -54, -128, -58, 92, -85, 8, 101, -13, 70, -96, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 40, 29, -62, 92, -85, 8, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 13, 13, -35, 79, -62, -112, 67, -79, 42, 64, -30, 17, -19, 56, -73, 16], tunnelServerId=1, dataCenterId=33}
+[00:19:18] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[00:19:18] [Thread-8/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /[2602:fbaf:82c:0:0:0:0:2]:43784 to claim client
+[00:19:18] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[00:19:18] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[00:19:18] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[00:19:18] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[00:19:18] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[00:19:18] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[00:19:18] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[00:19:46] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62828, peerAddr=112.196.95.22:60739, claimAddress=[2602:fbaf:082c:0000:0000:0000:0000:0002]:43784, claimToken=[44, 0, 60, -47, 25, -113, -75, -11, 108, 112, -60, 95, 22, -19, 67, -41, -29, -38, 71, -85, 8, 101, -13, 70, -67, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 40, 29, 88, 71, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -30, 3, -63, -123, 21, 27, 67, -116, 4, -11, -32, -48, 66, 76, -34, -54], tunnelServerId=1, dataCenterId=28}
+[00:19:46] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[00:19:46] [Thread-8/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /[2602:fbaf:82c:0:0:0:0:2]:43784 to claim client
+[00:19:47] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[00:19:47] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[00:19:47] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[00:19:47] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[00:19:47] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[00:19:47] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[00:19:47] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[00:19:47] [User Authenticator #3/INFO]: UUID of player AaryanGoswami is 5929f5e4-8688-3605-a4a4-c27ec4fdf955
+[00:19:49] [Server thread/INFO]: AaryanGoswami joined the game
+[00:19:49] [Server thread/INFO]: AaryanGoswami[/127.0.0.1:54453] logged in with entity id 4631 at ([world_nether]481.3995935550379, 50.5, -813.6999999880791)
+[00:22:13] [Async Chat Thread - #1/INFO]: [Not Secure] <AaryanGoswami> -314 31 -1548
+[00:22:14] [Thread-8/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:22:50] [nioEventLoopGroup-2-2/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[00:22:50] [Server thread/INFO]: sexsooxdevta lost connection: Disconnected
+[00:22:50] [Server thread/INFO]: sexsooxdevta left the game
+[00:22:51] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62828, peerAddr=49.156.111.39:9934, claimAddress=[2602:fbaf:082c:0000:0000:0000:0000:0002]:43784, claimToken=[44, 0, 60, -47, 25, -113, -75, -11, 108, 49, -100, 111, 39, 38, -50, 57, 126, 73, -27, -85, 8, 101, -13, 71, 117, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 40, 29, -50, -27, -85, 8, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 96, -29, 8, 21, 7, -46, -101, -113, 125, 43, -92, -124, -99, 60, 3, -96], tunnelServerId=1, dataCenterId=33}
+[00:22:51] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[00:22:51] [Thread-8/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /[2602:fbaf:82c:0:0:0:0:2]:43784 to claim client
+[00:22:51] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[00:22:51] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[00:22:51] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[00:22:51] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[00:22:51] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[00:22:51] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[00:22:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[00:23:21] [nioEventLoopGroup-2-2/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[00:23:21] [Server thread/INFO]: AaryanGoswami lost connection: Disconnected
+[00:23:21] [Server thread/INFO]: AaryanGoswami left the game
+[00:23:23] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62828, peerAddr=112.196.95.22:60797, claimAddress=[2602:fbaf:082c:0000:0000:0000:0000:0002]:43784, claimToken=[44, 0, 60, -47, 25, -113, -75, -11, 108, 112, -60, 95, 22, -19, 125, 86, 96, 31, 50, -85, 8, 101, -13, 71, -107, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 40, 29, -120, 50, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -63, 52, -91, 112, 58, -10, 92, -126, 110, -2, 42, 110, 42, -84, -28, -60], tunnelServerId=1, dataCenterId=28}
+[00:23:23] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[00:23:23] [Thread-8/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /[2602:fbaf:82c:0:0:0:0:2]:43784 to claim client
+[00:23:23] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[00:23:23] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[00:23:23] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[00:23:23] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[00:23:23] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[00:23:23] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[00:23:23] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[00:23:24] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.181:62828, peerAddr=112.196.95.22:60799, claimAddress=[2602:fbaf:082c:0000:0000:0000:0000:0002]:43784, claimToken=[44, 0, 60, -47, 25, -113, -75, -11, 108, 112, -60, 95, 22, -19, 127, 47, 120, 14, 58, -85, 8, 101, -13, 71, -105, 0, 0, 0, 0, 0, 7, 63, 27, 0, 0, 0, 0, 0, 47, 40, 29, -126, 58, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -80, 23, 126, -34, 67, -37, 64, 84, 120, -117, -96, -4, 99, -109, -5, 79], tunnelServerId=1, dataCenterId=28}
+[00:23:24] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[00:23:24] [Thread-8/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /[2602:fbaf:82c:0:0:0:0:2]:43784 to claim client
+[00:23:25] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[00:23:25] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[00:23:25] [Server thread/INFO]: chiyari issued server command: /save-all
+[00:23:25] [Server thread/INFO]: [chiyari: Saved the game]
+[00:23:27] [Server thread/INFO]: chiyari issued server command: /save-all
+[00:23:27] [Server thread/INFO]: [chiyari: Saved the game]
+[00:23:28] [Server thread/INFO]: chiyari issued server command: /save-all
+[00:23:28] [Server thread/INFO]: [chiyari: Saved the game]
+[00:23:28] [Server thread/INFO]: chiyari issued server command: /save-all
+[00:23:29] [Server thread/INFO]: [chiyari: Saved the game]
+[00:23:29] [Server thread/INFO]: chiyari issued server command: /save-all
+[00:23:29] [Server thread/INFO]: [chiyari: Saved the game]
+[00:23:30] [Server thread/INFO]: chiyari issued server command: /save-all
+[00:23:30] [Server thread/INFO]: [chiyari: Saved the game]
+[00:23:30] [Server thread/INFO]: chiyari issued server command: /save-all
+[00:23:31] [Server thread/INFO]: [chiyari: Saved the game]
+[00:23:31] [Server thread/INFO]: chiyari issued server command: /save-all
+[00:23:31] [Server thread/INFO]: [chiyari: Saved the game]
+[00:23:33] [nioEventLoopGroup-2-2/WARN]: [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:340) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:294) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:269) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:425) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:23:33] [nioEventLoopGroup-2-2/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[00:23:33] [Server thread/INFO]: Bravo-1-4 lost connection: Disconnected
+[00:23:33] [Server thread/INFO]: Bravo-1-4 left the game
+[00:23:41] [Server thread/INFO]: chiyari issued server command: /stop
+[00:23:41] [Server thread/INFO]: [chiyari: Stopping the server]
+[00:23:41] [Server thread/INFO]: Stopping server
+[00:23:41] [Server thread/INFO]: [AdvancedTeleport] Disabling AdvancedTeleport v6.0.0
+[00:23:41] [Server thread/INFO]: [AngelChest] Disabling AngelChest v11.0.1
+[00:23:41] [Server thread/INFO]: [BlockLocker] Disabling BlockLocker v1.12.1
+[00:23:41] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[00:23:41] [Server thread/INFO]: Saving players
+[00:23:41] [Server thread/INFO]: chiyari lost connection: Server closed
+[00:23:41] [Server thread/INFO]: chiyari left the game
+[00:23:41] [Server thread/INFO]: Saving worlds
+[00:23:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:23:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[00:23:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[00:23:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[00:23:41] [Server thread/INFO]: [ChunkHolderManager] Saved 8 block chunks, 185 entity chunks, 0 poi chunks in world 'world' in 0.04s
+[00:23:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:23:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[00:23:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[00:23:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[00:23:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[00:23:41] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 45 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[00:23:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:23:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[00:23:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[00:23:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[00:23:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[00:23:41] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[00:23:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:23:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:23:41] [Server thread/INFO]: Flushing Chunk IO
+[00:23:41] [Server thread/INFO]: Closing Thread Pool
+[00:23:41] [Server thread/INFO]: Closing Server

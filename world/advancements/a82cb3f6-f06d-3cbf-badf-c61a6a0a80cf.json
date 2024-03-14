@@ -2472,5 +2472,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2024-03-14 23:57:37 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3700
 }
