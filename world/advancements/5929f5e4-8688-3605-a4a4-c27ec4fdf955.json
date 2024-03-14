@@ -3655,5 +3655,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp": {
+    "criteria": {
+      "has_dried_kelp_block": "2024-03-14 21:39:57 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3700
 }
