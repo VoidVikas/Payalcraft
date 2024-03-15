@@ -7,6 +7,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:badlands": "2024-03-15 23:18:56 +0530",
       "minecraft:beach": "2024-03-08 21:56:14 +0530",
       "minecraft:forest": "2024-03-08 22:21:25 +0530",
       "minecraft:taiga": "2024-03-12 22:34:48 +0530",
@@ -15,6 +16,7 @@
       "minecraft:lukewarm_ocean": "2024-03-08 22:01:42 +0530",
       "minecraft:river": "2024-03-08 22:21:19 +0530",
       "minecraft:old_growth_birch_forest": "2024-03-12 22:22:58 +0530",
+      "minecraft:desert": "2024-03-15 23:23:00 +0530",
       "minecraft:ocean": "2024-03-11 16:15:57 +0530",
       "minecraft:jungle": "2024-03-11 23:10:21 +0530",
       "minecraft:sunflower_plains": "2024-03-11 16:13:20 +0530",
@@ -49,12 +51,15 @@
       "minecraft:blaze": "2024-03-10 22:49:24 +0530",
       "minecraft:cave_spider": "2024-03-15 01:35:15 +0530",
       "minecraft:skeleton": "2024-03-08 21:54:59 +0530",
+      "minecraft:phantom": "2024-03-15 23:04:15 +0530",
+      "minecraft:zombified_piglin": "2024-03-15 23:10:52 +0530",
       "minecraft:spider": "2024-03-09 20:15:02 +0530",
       "minecraft:wither_skeleton": "2024-03-10 22:47:29 +0530",
       "minecraft:zombie": "2024-03-08 22:17:01 +0530",
       "minecraft:creeper": "2024-03-11 16:57:15 +0530",
       "minecraft:drowned": "2024-03-12 22:14:13 +0530",
-      "minecraft:zombie_villager": "2024-03-11 20:54:25 +0530"
+      "minecraft:zombie_villager": "2024-03-11 20:54:25 +0530",
+      "minecraft:husk": "2024-03-15 23:24:27 +0530"
     },
     "done": false
   },
@@ -409,15 +414,17 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-03-08 22:26:43 +0530",
-      "apple": "2024-03-08 22:32:43 +0530",
       "bread": "2024-03-08 23:56:19 +0530",
       "rotten_flesh": "2024-03-11 16:15:45 +0530",
       "cooked_mutton": "2024-03-11 16:48:11 +0530",
-      "cooked_cod": "2024-03-09 00:03:52 +0530",
+      "glow_berries": "2024-03-15 23:21:16 +0530",
       "sweet_berries": "2024-03-12 23:12:16 +0530",
       "cooked_beef": "2024-03-08 23:06:46 +0530",
-      "cod": "2024-03-09 00:31:27 +0530",
+      "baked_potato": "2024-03-15 23:13:12 +0530",
       "melon_slice": "2024-03-11 23:21:46 +0530",
+      "apple": "2024-03-08 22:32:43 +0530",
+      "cooked_cod": "2024-03-09 00:03:52 +0530",
+      "cod": "2024-03-09 00:31:27 +0530",
       "cooked_salmon": "2024-03-10 22:30:50 +0530",
       "carrot": "2024-03-12 21:52:04 +0530"
     },
@@ -1697,6 +1704,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cow": "2024-03-15 23:48:26 +0530",
       "minecraft:chicken": "2024-03-09 20:11:27 +0530",
       "minecraft:wolf": "2024-03-11 21:06:02 +0530",
       "minecraft:turtle": "2024-03-12 22:39:00 +0530",
@@ -2597,6 +2605,72 @@
   "minecraft:recipes/decorations/birch_hanging_sign": {
     "criteria": {
       "has_stripped_logs": "2024-03-15 01:12:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2024-03-15 23:19:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2024-03-15 23:21:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2024-03-15 23:21:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2024-03-15 23:21:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2024-03-15 23:23:47 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2024-03-15 23:23:47 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2024-03-15 23:23:47 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2024-03-15 23:25:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2024-03-15 23:34:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2024-03-15 23:34:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2024-03-15 23:34:24 +0530"
     },
     "done": true
   },
