@@ -1699,7 +1699,8 @@
     "criteria": {
       "minecraft:chicken": "2024-03-09 20:11:27 +0530",
       "minecraft:wolf": "2024-03-11 21:06:02 +0530",
-      "minecraft:turtle": "2024-03-12 22:39:00 +0530"
+      "minecraft:turtle": "2024-03-12 22:39:00 +0530",
+      "minecraft:sheep": "2024-03-15 12:24:03 +0530"
     },
     "done": false
   },
@@ -2479,6 +2480,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2024-03-15 00:56:46 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2024-03-15 01:01:44 +0530"
@@ -2521,21 +2528,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stripped_birch_wood": {
-    "criteria": {
-      "has_log": "2024-03-15 01:12:36 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2024-03-15 01:01:44 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/birch_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2024-03-15 01:12:36 +0530"
     },
     "done": true
   },
@@ -2557,33 +2552,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/grindstone": {
-    "criteria": {
-      "has_stone_slab": "2024-03-15 01:02:00 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_oak_wood": {
-    "criteria": {
-      "has_log": "2024-03-15 01:12:28 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2024-03-15 01:01:44 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bone_meal_from_bone_block": {
-    "criteria": {
-      "has_bone_block": "2024-03-15 00:56:46 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/oak_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2024-03-15 01:12:28 +0530"
     },
     "done": true
   },
@@ -2596,6 +2567,36 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2024-03-15 01:01:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2024-03-15 01:02:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2024-03-15 01:12:28 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-03-15 01:12:28 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2024-03-15 01:12:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-03-15 01:12:36 +0530"
     },
     "done": true
   },
