@@ -7,29 +7,34 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:badlands": "2024-03-09 02:02:17 +0530",
       "minecraft:cold_ocean": "2024-03-13 01:01:38 +0530",
       "minecraft:snowy_slopes": "2024-03-10 02:30:30 +0530",
-      "minecraft:beach": "2024-03-08 22:32:22 +0530",
       "minecraft:old_growth_pine_taiga": "2024-03-13 01:02:16 +0530",
       "minecraft:forest": "2024-03-08 22:25:49 +0530",
       "minecraft:taiga": "2024-03-11 15:47:55 +0530",
-      "minecraft:sparse_jungle": "2024-03-10 02:12:50 +0530",
-      "minecraft:river": "2024-03-08 22:25:46 +0530",
-      "minecraft:lukewarm_ocean": "2024-03-09 03:07:08 +0530",
-      "minecraft:stony_shore": "2024-03-11 15:42:00 +0530",
-      "minecraft:old_growth_birch_forest": "2024-03-13 00:47:20 +0530",
+      "minecraft:deep_ocean": "2024-03-16 01:58:11 +0530",
       "minecraft:desert": "2024-03-09 02:01:31 +0530",
       "minecraft:jungle": "2024-03-10 02:08:18 +0530",
       "minecraft:ocean": "2024-03-11 15:49:41 +0530",
       "minecraft:sunflower_plains": "2024-03-13 00:11:05 +0530",
-      "minecraft:grove": "2024-03-11 15:46:00 +0530",
+      "minecraft:cherry_grove": "2024-03-16 02:44:05 +0530",
       "minecraft:old_growth_spruce_taiga": "2024-03-13 01:15:34 +0530",
-      "minecraft:savanna": "2024-03-09 02:00:08 +0530",
       "minecraft:wooded_badlands": "2024-03-10 02:13:15 +0530",
+      "minecraft:warm_ocean": "2024-03-09 03:06:53 +0530",
+      "minecraft:deep_lukewarm_ocean": "2024-03-16 01:56:56 +0530",
+      "minecraft:badlands": "2024-03-09 02:02:17 +0530",
+      "minecraft:beach": "2024-03-08 22:32:22 +0530",
+      "minecraft:sparse_jungle": "2024-03-10 02:12:50 +0530",
+      "minecraft:river": "2024-03-08 22:25:46 +0530",
+      "minecraft:lukewarm_ocean": "2024-03-09 03:07:08 +0530",
+      "minecraft:stony_shore": "2024-03-11 15:42:00 +0530",
+      "minecraft:dripstone_caves": "2024-03-16 02:29:54 +0530",
+      "minecraft:old_growth_birch_forest": "2024-03-13 00:47:20 +0530",
+      "minecraft:deep_dark": "2024-03-16 02:23:42 +0530",
+      "minecraft:grove": "2024-03-11 15:46:00 +0530",
+      "minecraft:savanna": "2024-03-09 02:00:08 +0530",
       "minecraft:plains": "2024-03-08 22:11:05 +0530",
-      "minecraft:jagged_peaks": "2024-03-11 15:46:23 +0530",
-      "minecraft:warm_ocean": "2024-03-09 03:06:53 +0530"
+      "minecraft:jagged_peaks": "2024-03-11 15:46:23 +0530"
     },
     "done": false
   },
@@ -177,6 +182,7 @@
       "mutton": "2024-03-09 03:00:28 +0530",
       "chicken": "2024-03-10 04:07:58 +0530",
       "bread": "2024-03-09 00:19:41 +0530",
+      "golden_apple": "2024-03-16 01:08:04 +0530",
       "rotten_flesh": "2024-03-10 22:36:16 +0530",
       "cooked_mutton": "2024-03-08 22:51:29 +0530",
       "salmon": "2024-03-09 01:59:28 +0530",
@@ -184,6 +190,7 @@
       "beef": "2024-03-08 22:40:39 +0530",
       "melon_slice": "2024-03-13 00:26:34 +0530",
       "porkchop": "2024-03-08 22:28:45 +0530",
+      "golden_carrot": "2024-03-16 01:44:43 +0530",
       "apple": "2024-03-09 00:01:34 +0530",
       "cooked_chicken": "2024-03-10 22:53:49 +0530",
       "potato": "2024-03-10 02:36:00 +0530",
@@ -3381,6 +3388,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cow": "2024-03-16 01:31:59 +0530",
       "minecraft:sheep": "2024-03-15 01:57:44 +0530"
     },
     "done": false
@@ -3388,6 +3396,174 @@
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2024-03-15 01:57:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-03-16 01:18:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template": {
+    "criteria": {
+      "has_wild_armor_trim_smithing_template": "2024-03-16 02:13:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-03-16 01:18:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-03-16 02:13:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2024-03-16 01:16:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-16 01:16:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-16 01:16:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-16 01:16:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2024-03-16 01:16:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2024-03-16 01:16:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2024-03-16 01:16:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-16 01:16:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-03-16 01:18:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-03-16 01:18:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-03-16 01:18:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-16 01:16:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2024-03-16 02:15:52 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-16 01:16:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-16 01:16:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-03-16 01:56:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-16 01:16:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-03-16 01:18:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-16 01:16:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:wild_armor_trim_smithing_template_smithing_trim": "2024-03-16 02:19:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-03-16 01:18:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-16 01:16:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-16 01:16:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-16 01:16:55 +0530"
     },
     "done": true
   },
