@@ -17,6 +17,7 @@
       "minecraft:river": "2024-03-08 22:21:19 +0530",
       "minecraft:old_growth_birch_forest": "2024-03-12 22:22:58 +0530",
       "minecraft:desert": "2024-03-15 23:23:00 +0530",
+      "minecraft:windswept_forest": "2024-03-16 20:38:03 +0530",
       "minecraft:ocean": "2024-03-11 16:15:57 +0530",
       "minecraft:jungle": "2024-03-11 23:10:21 +0530",
       "minecraft:sunflower_plains": "2024-03-11 16:13:20 +0530",
@@ -49,17 +50,18 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2024-03-10 22:49:24 +0530",
-      "minecraft:cave_spider": "2024-03-15 01:35:15 +0530",
+      "minecraft:pillager": "2024-03-16 20:42:34 +0530",
       "minecraft:skeleton": "2024-03-08 21:54:59 +0530",
       "minecraft:phantom": "2024-03-15 23:04:15 +0530",
       "minecraft:zombified_piglin": "2024-03-15 23:10:52 +0530",
-      "minecraft:spider": "2024-03-09 20:15:02 +0530",
       "minecraft:wither_skeleton": "2024-03-10 22:47:29 +0530",
+      "minecraft:husk": "2024-03-15 23:24:27 +0530",
+      "minecraft:cave_spider": "2024-03-15 01:35:15 +0530",
+      "minecraft:spider": "2024-03-09 20:15:02 +0530",
       "minecraft:zombie": "2024-03-08 22:17:01 +0530",
       "minecraft:creeper": "2024-03-11 16:57:15 +0530",
       "minecraft:drowned": "2024-03-12 22:14:13 +0530",
-      "minecraft:zombie_villager": "2024-03-11 20:54:25 +0530",
-      "minecraft:husk": "2024-03-15 23:24:27 +0530"
+      "minecraft:zombie_villager": "2024-03-11 20:54:25 +0530"
     },
     "done": false
   },
@@ -415,6 +417,7 @@
     "criteria": {
       "cooked_porkchop": "2024-03-08 22:26:43 +0530",
       "bread": "2024-03-08 23:56:19 +0530",
+      "golden_apple": "2024-03-16 20:50:47 +0530",
       "rotten_flesh": "2024-03-11 16:15:45 +0530",
       "cooked_mutton": "2024-03-11 16:48:11 +0530",
       "glow_berries": "2024-03-15 23:21:16 +0530",

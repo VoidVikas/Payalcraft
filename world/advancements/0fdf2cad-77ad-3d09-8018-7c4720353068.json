@@ -29,6 +29,7 @@
       "minecraft:lukewarm_ocean": "2024-03-09 03:07:08 +0530",
       "minecraft:stony_shore": "2024-03-11 15:42:00 +0530",
       "minecraft:dripstone_caves": "2024-03-16 02:29:54 +0530",
+      "minecraft:snowy_taiga": "2024-03-16 20:37:00 +0530",
       "minecraft:old_growth_birch_forest": "2024-03-13 00:47:20 +0530",
       "minecraft:deep_dark": "2024-03-16 02:23:42 +0530",
       "minecraft:grove": "2024-03-11 15:46:00 +0530",
@@ -3564,6 +3565,42 @@
   "minecraft:adventure/trim_with_any_armor_pattern": {
     "criteria": {
       "armor_trimmed_minecraft:wild_armor_trim_smithing_template_smithing_trim": "2024-03-16 02:19:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2024-03-16 18:17:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-03-16 18:31:33 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2024-03-16 18:31:33 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2024-03-16 18:31:33 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-03-16 20:32:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-03-16 20:32:05 +0530"
     },
     "done": true
   },
