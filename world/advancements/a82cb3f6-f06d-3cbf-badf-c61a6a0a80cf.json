@@ -9,12 +9,14 @@
     "criteria": {
       "minecraft:badlands": "2024-03-15 23:18:56 +0530",
       "minecraft:beach": "2024-03-08 21:56:14 +0530",
+      "minecraft:dark_forest": "2024-03-17 02:00:14 +0530",
       "minecraft:forest": "2024-03-08 22:21:25 +0530",
       "minecraft:taiga": "2024-03-12 22:34:48 +0530",
       "minecraft:sparse_jungle": "2024-03-11 23:06:40 +0530",
       "minecraft:deep_ocean": "2024-03-11 16:16:13 +0530",
       "minecraft:lukewarm_ocean": "2024-03-08 22:01:42 +0530",
       "minecraft:river": "2024-03-08 22:21:19 +0530",
+      "minecraft:lush_caves": "2024-03-17 02:04:42 +0530",
       "minecraft:old_growth_birch_forest": "2024-03-12 22:22:58 +0530",
       "minecraft:desert": "2024-03-15 23:23:00 +0530",
       "minecraft:windswept_forest": "2024-03-16 20:38:03 +0530",
@@ -57,6 +59,7 @@
       "minecraft:wither_skeleton": "2024-03-10 22:47:29 +0530",
       "minecraft:husk": "2024-03-15 23:24:27 +0530",
       "minecraft:cave_spider": "2024-03-15 01:35:15 +0530",
+      "minecraft:enderman": "2024-03-17 01:07:29 +0530",
       "minecraft:spider": "2024-03-09 20:15:02 +0530",
       "minecraft:zombie": "2024-03-08 22:17:01 +0530",
       "minecraft:creeper": "2024-03-11 16:57:15 +0530",
@@ -416,6 +419,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-03-08 22:26:43 +0530",
+      "mutton": "2024-03-17 03:27:19 +0530",
       "bread": "2024-03-08 23:56:19 +0530",
       "golden_apple": "2024-03-16 20:50:47 +0530",
       "rotten_flesh": "2024-03-11 16:15:45 +0530",
@@ -425,6 +429,7 @@
       "cooked_beef": "2024-03-08 23:06:46 +0530",
       "baked_potato": "2024-03-15 23:13:12 +0530",
       "melon_slice": "2024-03-11 23:21:46 +0530",
+      "golden_carrot": "2024-03-17 00:01:08 +0530",
       "apple": "2024-03-08 22:32:43 +0530",
       "cooked_cod": "2024-03-09 00:03:52 +0530",
       "cod": "2024-03-09 00:31:27 +0530",
@@ -1709,6 +1714,7 @@
     "criteria": {
       "minecraft:cow": "2024-03-15 23:48:26 +0530",
       "minecraft:chicken": "2024-03-09 20:11:27 +0530",
+      "minecraft:pig": "2024-03-17 00:52:04 +0530",
       "minecraft:wolf": "2024-03-11 21:06:02 +0530",
       "minecraft:turtle": "2024-03-12 22:39:00 +0530",
       "minecraft:sheep": "2024-03-15 12:24:03 +0530"
@@ -2674,6 +2680,162 @@
   "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
     "criteria": {
       "has_rabbit": "2024-03-15 23:34:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2024-03-16 23:59:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2024-03-16 23:59:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2024-03-16 23:59:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-03-17 00:03:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2024-03-17 00:21:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2024-03-17 03:01:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2024-03-17 02:59:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-17 02:59:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-17 02:59:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-17 02:59:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2024-03-17 03:10:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2024-03-17 03:01:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2024-03-17 02:59:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2024-03-17 02:59:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2024-03-17 02:59:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-03-17 03:00:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-17 02:59:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-17 02:59:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-17 02:59:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-17 02:59:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-17 02:59:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-17 02:59:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2024-03-17 03:00:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-17 02:59:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-17 02:59:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-17 02:59:32 +0530"
     },
     "done": true
   },
