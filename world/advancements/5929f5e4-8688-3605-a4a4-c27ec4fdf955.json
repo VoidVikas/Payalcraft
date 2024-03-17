@@ -773,6 +773,7 @@
       "minecraft:zombie": "2024-03-08 22:57:23 +0530",
       "minecraft:creeper": "2024-03-10 01:55:36 +0530",
       "minecraft:drowned": "2024-03-17 02:00:17 +0530",
+      "minecraft:zombie_villager": "2024-03-18 02:02:54 +0530",
       "minecraft:slime": "2024-03-16 02:30:37 +0530"
     },
     "done": false
@@ -3784,6 +3785,12 @@
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2024-03-17 01:52:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_planks": {
+    "criteria": {
+      "has_logs": "2024-03-18 01:33:59 +0530"
     },
     "done": true
   },
