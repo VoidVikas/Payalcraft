@@ -56,6 +56,7 @@
       "minecraft:skeleton": "2024-03-08 21:54:59 +0530",
       "minecraft:phantom": "2024-03-15 23:04:15 +0530",
       "minecraft:zombified_piglin": "2024-03-15 23:10:52 +0530",
+      "minecraft:witch": "2024-03-18 16:07:25 +0530",
       "minecraft:wither_skeleton": "2024-03-10 22:47:29 +0530",
       "minecraft:husk": "2024-03-15 23:24:27 +0530",
       "minecraft:cave_spider": "2024-03-15 01:35:15 +0530",
@@ -2860,6 +2861,60 @@
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_bowl": "2024-03-17 23:45:52 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-03-18 15:16:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2024-03-18 15:16:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2024-03-18 15:16:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-03-18 15:16:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_candle": {
+    "criteria": {
+      "has_blue_dye": "2024-03-18 15:16:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_blue_dye": "2024-03-18 15:16:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-03-18 15:16:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2024-03-18 15:25:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-03-18 19:10:01 +0530"
     },
     "done": true
   },
