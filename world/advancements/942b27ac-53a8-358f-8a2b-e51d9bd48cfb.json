@@ -15,6 +15,8 @@
       "minecraft:lukewarm_ocean": "2024-03-18 00:03:47 +0530",
       "minecraft:stony_shore": "2024-03-16 21:20:11 +0530",
       "minecraft:dripstone_caves": "2024-03-18 19:14:58 +0530",
+      "minecraft:frozen_peaks": "2024-03-19 20:14:34 +0530",
+      "minecraft:ice_spikes": "2024-03-19 21:48:40 +0530",
       "minecraft:ocean": "2024-03-16 21:36:42 +0530",
       "minecraft:cherry_grove": "2024-03-16 20:27:40 +0530",
       "minecraft:sunflower_plains": "2024-03-16 21:20:05 +0530",
@@ -245,15 +247,16 @@
     "criteria": {
       "cooked_porkchop": "2024-03-16 20:24:11 +0530",
       "mutton": "2024-03-16 20:56:59 +0530",
-      "apple": "2024-03-16 19:46:04 +0530",
-      "spider_eye": "2024-03-18 20:50:16 +0530",
-      "cooked_chicken": "2024-03-18 00:20:52 +0530",
       "cooked_mutton": "2024-03-16 21:11:05 +0530",
-      "potato": "2024-03-17 23:19:57 +0530",
       "salmon": "2024-03-17 23:10:50 +0530",
       "cooked_beef": "2024-03-17 23:59:11 +0530",
       "beef": "2024-03-18 00:58:14 +0530",
       "porkchop": "2024-03-16 20:18:54 +0530",
+      "beetroot": "2024-03-19 21:17:07 +0530",
+      "apple": "2024-03-16 19:46:04 +0530",
+      "spider_eye": "2024-03-18 20:50:16 +0530",
+      "cooked_chicken": "2024-03-18 00:20:52 +0530",
+      "potato": "2024-03-17 23:19:57 +0530",
       "carrot": "2024-03-17 22:50:19 +0530"
     },
     "done": false
@@ -794,6 +797,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2024-03-19 19:02:13 +0530",
       "minecraft:skeleton": "2024-03-16 21:02:20 +0530",
       "minecraft:spider": "2024-03-16 21:24:05 +0530",
       "minecraft:zombie": "2024-03-16 21:06:05 +0530",
@@ -1405,7 +1409,8 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2024-03-17 23:13:25 +0530",
-      "minecraft:nether_wastes": "2024-03-18 00:14:45 +0530"
+      "minecraft:nether_wastes": "2024-03-18 00:14:45 +0530",
+      "minecraft:soul_sand_valley": "2024-03-19 23:03:34 +0530"
     },
     "done": false
   },
@@ -1859,21 +1864,273 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stripped_oak_wood": {
-    "criteria": {
-      "has_log": "2024-03-18 22:02:29 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2024-03-18 21:59:15 +0530"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2024-03-18 22:02:29 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_hanging_sign": {
     "criteria": {
       "has_stripped_logs": "2024-03-18 22:02:29 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-03-19 19:02:13 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2024-03-19 19:04:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-03-19 19:04:37 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-03-19 19:06:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2024-03-19 19:06:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-03-19 19:06:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-03-19 19:06:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-03-19 19:06:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-03-19 19:06:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-03-19 19:06:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-03-19 19:06:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-03-19 19:06:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "criteria": {
+      "kill_pillager": "2024-03-19 19:09:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2024-03-19 19:10:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-03-19 19:10:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template": {
+    "criteria": {
+      "has_sentry_armor_trim_smithing_template": "2024-03-19 19:10:37 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-03-19 19:10:37 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2024-03-19 19:12:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-03-19 19:17:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-03-19 19:17:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2024-03-19 19:17:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-03-19 19:39:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-03-19 19:39:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-03-19 19:39:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2024-03-19 19:51:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-03-19 19:51:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-03-19 19:51:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-03-19 19:51:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-03-19 19:51:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2024-03-19 20:19:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2024-03-19 20:19:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2024-03-19 20:47:38 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2024-03-19 20:47:39 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2024-03-19 20:47:39 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-03-19 21:11:13 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-03-19 21:11:13 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-03-19 21:16:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2024-03-19 21:17:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-03-19 21:17:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2024-03-19 23:02:02 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2024-03-19 23:04:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2024-03-19 23:04:16 +0530"
     },
     "done": true
   },
