@@ -1,7 +1,5 @@
-# Payalcraft
-Absolutely! Here's a much more systematic and structured README.md based on your description. I've focused on clarity, organization, and highlighting the ease of setup.
 
-**README.md**
+
 
 # Payalcraft Server Synchronization
 
