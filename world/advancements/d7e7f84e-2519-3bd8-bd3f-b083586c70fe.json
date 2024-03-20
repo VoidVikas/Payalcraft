@@ -2257,9 +2257,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2024-03-19 22:02:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2024-03-19 22:02:41 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/book": {
     "criteria": {
       "has_paper": "2024-03-19 22:08:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2024-03-19 22:08:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-03-19 23:02:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-03-19 23:02:48 +0530"
     },
     "done": true
   },
@@ -2270,33 +2300,9 @@
     },
     "done": false
   },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2024-03-19 23:02:48 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/sugar_from_sugar_cane": {
-    "criteria": {
-      "has_sugar_cane": "2024-03-19 22:02:41 +0530"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2024-03-19 23:02:48 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_soul_sand": "2024-03-19 23:04:59 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cartography_table": {
-    "criteria": {
-      "has_paper": "2024-03-19 22:08:08 +0530"
     },
     "done": true
   },
@@ -2306,9 +2312,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/paper": {
+  "minecraft:recipes/misc/nether_brick": {
     "criteria": {
-      "has_reeds": "2024-03-19 22:02:41 +0530"
+      "has_netherrack": "2024-03-20 15:43:50 +0530"
     },
     "done": true
   },
