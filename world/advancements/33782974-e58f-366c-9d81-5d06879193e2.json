@@ -7,22 +7,36 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:badlands": "2024-03-15 23:19:52 +0530",
-      "minecraft:beach": "2024-03-08 22:20:35 +0530",
-      "minecraft:dark_forest": "2024-03-17 02:00:14 +0530",
+      "minecraft:cold_ocean": "2024-03-24 02:22:31 +0530",
+      "minecraft:snowy_slopes": "2024-03-24 02:16:21 +0530",
       "minecraft:forest": "2024-03-08 22:20:18 +0530",
-      "minecraft:sparse_jungle": "2024-03-08 22:13:54 +0530",
+      "minecraft:taiga": "2024-03-24 02:21:21 +0530",
       "minecraft:deep_ocean": "2024-03-17 01:24:01 +0530",
-      "minecraft:river": "2024-03-08 22:20:16 +0530",
-      "minecraft:lukewarm_ocean": "2024-03-08 22:42:53 +0530",
       "minecraft:lush_caves": "2024-03-17 02:05:20 +0530",
       "minecraft:eroded_badlands": "2024-03-15 23:27:52 +0530",
       "minecraft:desert": "2024-03-08 22:36:16 +0530",
       "minecraft:ocean": "2024-03-17 01:00:42 +0530",
       "minecraft:jungle": "2024-03-17 01:39:06 +0530",
+      "minecraft:birch_forest": "2024-03-24 02:48:26 +0530",
+      "minecraft:wooded_badlands": "2024-03-24 01:42:27 +0530",
+      "minecraft:deep_lukewarm_ocean": "2024-03-09 00:36:42 +0530",
+      "minecraft:badlands": "2024-03-15 23:19:52 +0530",
+      "minecraft:flower_forest": "2024-03-24 02:09:10 +0530",
+      "minecraft:savanna_plateau": "2024-03-24 02:03:16 +0530",
+      "minecraft:beach": "2024-03-08 22:20:35 +0530",
+      "minecraft:dark_forest": "2024-03-17 02:00:14 +0530",
+      "minecraft:stony_peaks": "2024-03-24 02:00:11 +0530",
+      "minecraft:sparse_jungle": "2024-03-08 22:13:54 +0530",
+      "minecraft:river": "2024-03-08 22:20:16 +0530",
+      "minecraft:lukewarm_ocean": "2024-03-08 22:42:53 +0530",
+      "minecraft:stony_shore": "2024-03-24 02:23:01 +0530",
+      "minecraft:dripstone_caves": "2024-03-24 02:43:30 +0530",
+      "minecraft:frozen_peaks": "2024-03-24 02:16:32 +0530",
+      "minecraft:old_growth_birch_forest": "2024-03-24 02:49:14 +0530",
+      "minecraft:grove": "2024-03-24 02:14:22 +0530",
+      "minecraft:meadow": "2024-03-24 02:03:45 +0530",
       "minecraft:savanna": "2024-03-08 22:35:20 +0530",
-      "minecraft:plains": "2024-03-08 22:09:25 +0530",
-      "minecraft:deep_lukewarm_ocean": "2024-03-09 00:36:42 +0530"
+      "minecraft:plains": "2024-03-08 22:09:25 +0530"
     },
     "done": false
   },
@@ -270,12 +284,15 @@
     "criteria": {
       "minecraft:skeleton": "2024-03-09 23:39:02 +0530",
       "minecraft:phantom": "2024-03-17 01:48:02 +0530",
+      "minecraft:vindicator": "2024-03-24 02:50:32 +0530",
       "minecraft:zombified_piglin": "2024-03-17 00:34:37 +0530",
       "minecraft:enderman": "2024-03-08 23:40:06 +0530",
       "minecraft:spider": "2024-03-08 22:39:07 +0530",
+      "minecraft:vex": "2024-03-24 02:59:17 +0530",
       "minecraft:zombie": "2024-03-08 22:16:42 +0530",
       "minecraft:creeper": "2024-03-17 01:10:20 +0530",
       "minecraft:drowned": "2024-03-17 01:07:27 +0530",
+      "minecraft:evoker": "2024-03-24 02:59:39 +0530",
       "minecraft:hoglin": "2024-03-17 02:59:39 +0530"
     },
     "done": false
@@ -2744,6 +2761,102 @@
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2024-03-17 23:59:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2024-03-24 02:53:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2024-03-24 02:56:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-03-24 01:51:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2024-03-24 01:49:02 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-03-24 02:18:17 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-03-24 02:43:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-03-24 01:51:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2024-03-24 01:15:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2024-03-24 02:56:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2024-03-24 02:56:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-03-24 01:51:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2024-03-24 02:17:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-03-24 01:51:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2024-03-24 01:15:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-03-24 01:51:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-03-24 01:51:58 +0530"
     },
     "done": true
   },

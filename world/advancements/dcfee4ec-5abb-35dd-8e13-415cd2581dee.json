@@ -8,17 +8,33 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2024-03-17 01:27:37 +0530",
-      "minecraft:beach": "2024-03-17 01:02:20 +0530",
+      "minecraft:snowy_slopes": "2024-03-24 02:16:21 +0530",
       "minecraft:forest": "2024-03-17 01:09:33 +0530",
+      "minecraft:taiga": "2024-03-24 02:21:29 +0530",
+      "minecraft:deep_ocean": "2024-03-17 01:24:03 +0530",
+      "minecraft:lush_caves": "2024-03-17 02:05:02 +0530",
+      "minecraft:eroded_badlands": "2024-03-24 01:40:46 +0530",
+      "minecraft:desert": "2024-03-24 01:39:56 +0530",
       "minecraft:ocean": "2024-03-17 01:01:33 +0530",
       "minecraft:jungle": "2024-03-17 01:38:44 +0530",
-      "minecraft:deep_ocean": "2024-03-17 01:24:03 +0530",
+      "minecraft:birch_forest": "2024-03-17 02:06:58 +0530",
+      "minecraft:wooded_badlands": "2024-03-24 01:41:54 +0530",
+      "minecraft:badlands": "2024-03-24 01:40:10 +0530",
+      "minecraft:flower_forest": "2024-03-24 02:09:16 +0530",
+      "minecraft:savanna_plateau": "2024-03-24 02:03:11 +0530",
+      "minecraft:beach": "2024-03-17 01:02:20 +0530",
+      "minecraft:dark_forest": "2024-03-24 02:49:20 +0530",
+      "minecraft:stony_peaks": "2024-03-24 02:00:15 +0530",
       "minecraft:river": "2024-03-17 01:02:22 +0530",
       "minecraft:lukewarm_ocean": "2024-03-17 00:58:01 +0530",
-      "minecraft:birch_forest": "2024-03-17 02:06:58 +0530",
-      "minecraft:lush_caves": "2024-03-17 02:05:02 +0530",
+      "minecraft:stony_shore": "2024-03-24 02:22:57 +0530",
+      "minecraft:frozen_peaks": "2024-03-24 02:16:32 +0530",
+      "minecraft:old_growth_birch_forest": "2024-03-24 02:49:08 +0530",
+      "minecraft:grove": "2024-03-24 02:14:46 +0530",
+      "minecraft:meadow": "2024-03-24 02:03:50 +0530",
       "minecraft:savanna": "2024-03-17 03:20:30 +0530",
-      "minecraft:plains": "2024-03-16 23:50:30 +0530"
+      "minecraft:plains": "2024-03-16 23:50:30 +0530",
+      "minecraft:jagged_peaks": "2024-03-24 02:15:06 +0530"
     },
     "done": false
   },
@@ -89,7 +105,8 @@
       "minecraft:phantom": "2024-03-17 02:02:34 +0530",
       "minecraft:zombified_piglin": "2024-03-17 03:21:09 +0530",
       "minecraft:spider": "2024-03-17 01:49:17 +0530",
-      "minecraft:zombie": "2024-03-17 01:08:51 +0530"
+      "minecraft:zombie": "2024-03-17 01:08:51 +0530",
+      "minecraft:drowned": "2024-03-24 01:44:38 +0530"
     },
     "done": false
   },
@@ -107,6 +124,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-03-24 01:47:41 +0530",
+      "potato": "2024-03-24 02:44:29 +0530",
       "carrot": "2024-03-17 00:01:47 +0530"
     },
     "done": false
@@ -980,6 +999,246 @@
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2024-03-17 03:23:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2024-03-24 03:08:23 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2024-03-24 03:00:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-03-24 01:12:59 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2024-03-24 03:00:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2024-03-24 00:20:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2024-03-24 00:20:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-03-24 03:00:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-03-24 02:13:10 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2024-03-24 01:44:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-03-24 02:24:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-03-24 03:00:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2024-03-24 00:20:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_diorite": "2024-03-24 02:24:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2024-03-24 02:24:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-03-24 02:24:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2024-03-24 01:44:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-03-24 02:13:10 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-03-24 02:13:10 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2024-03-24 02:24:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2024-03-24 01:44:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2024-03-24 01:53:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2024-03-24 02:45:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2024-03-24 03:00:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2024-03-24 01:53:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2024-03-24 01:13:01 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2024-03-24 01:53:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-03-24 02:24:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2024-03-24 02:24:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2024-03-24 02:53:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-03-24 01:12:59 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-03-24 02:24:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-03-24 02:24:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2024-03-24 03:00:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2024-03-24 03:00:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-03-24 02:24:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2024-03-24 01:28:39 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2024-03-24 02:24:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-03-24 03:00:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2024-03-24 02:45:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2024-03-24 03:00:49 +0530"
     },
     "done": true
   },

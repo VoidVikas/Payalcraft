@@ -15,6 +15,7 @@
       "minecraft:lush_caves": "2024-03-17 02:04:42 +0530",
       "minecraft:deep_cold_ocean": "2024-03-20 15:49:25 +0530",
       "minecraft:frozen_ocean": "2024-03-20 16:10:07 +0530",
+      "minecraft:eroded_badlands": "2024-03-24 01:40:46 +0530",
       "minecraft:desert": "2024-03-15 23:23:00 +0530",
       "minecraft:frozen_river": "2024-03-20 16:11:09 +0530",
       "minecraft:windswept_forest": "2024-03-16 20:38:03 +0530",
@@ -26,18 +27,22 @@
       "minecraft:birch_forest": "2024-03-12 22:36:48 +0530",
       "minecraft:windswept_hills": "2024-03-20 15:47:48 +0530",
       "minecraft:snowy_beach": "2024-03-20 16:11:13 +0530",
+      "minecraft:wooded_badlands": "2024-03-24 01:41:54 +0530",
       "minecraft:windswept_savanna": "2024-03-20 16:18:30 +0530",
       "minecraft:deep_lukewarm_ocean": "2024-03-11 16:17:38 +0530",
       "minecraft:badlands": "2024-03-15 23:18:56 +0530",
       "minecraft:flower_forest": "2024-03-20 15:47:54 +0530",
+      "minecraft:savanna_plateau": "2024-03-24 02:03:05 +0530",
       "minecraft:beach": "2024-03-08 21:56:14 +0530",
       "minecraft:dark_forest": "2024-03-17 02:00:14 +0530",
+      "minecraft:stony_peaks": "2024-03-24 02:00:07 +0530",
       "minecraft:sparse_jungle": "2024-03-11 23:06:40 +0530",
       "minecraft:lukewarm_ocean": "2024-03-08 22:01:42 +0530",
       "minecraft:river": "2024-03-08 22:21:19 +0530",
       "minecraft:stony_shore": "2024-03-20 15:49:14 +0530",
       "minecraft:snowy_plains": "2024-03-20 16:11:10 +0530",
       "minecraft:dripstone_caves": "2024-03-19 19:05:17 +0530",
+      "minecraft:frozen_peaks": "2024-03-24 02:16:29 +0530",
       "minecraft:old_growth_birch_forest": "2024-03-12 22:22:58 +0530",
       "minecraft:deep_dark": "2024-03-20 16:12:33 +0530",
       "minecraft:grove": "2024-03-20 15:44:32 +0530",
@@ -77,12 +82,15 @@
       "minecraft:wither_skeleton": "2024-03-10 22:47:29 +0530",
       "minecraft:husk": "2024-03-15 23:24:27 +0530",
       "minecraft:cave_spider": "2024-03-15 01:35:15 +0530",
+      "minecraft:vindicator": "2024-03-24 02:50:13 +0530",
       "minecraft:enderman": "2024-03-17 01:07:29 +0530",
       "minecraft:spider": "2024-03-09 20:15:02 +0530",
+      "minecraft:vex": "2024-03-24 02:59:16 +0530",
       "minecraft:zombie": "2024-03-08 22:17:01 +0530",
       "minecraft:creeper": "2024-03-11 16:57:15 +0530",
       "minecraft:drowned": "2024-03-12 22:14:13 +0530",
-      "minecraft:zombie_villager": "2024-03-11 20:54:25 +0530"
+      "minecraft:zombie_villager": "2024-03-11 20:54:25 +0530",
+      "minecraft:evoker": "2024-03-24 02:59:11 +0530"
     },
     "done": false
   },
@@ -2956,6 +2964,150 @@
   "minecraft:recipes/redstone/trapped_chest": {
     "criteria": {
       "has_tripwire_hook": "2024-03-21 23:26:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2024-03-24 02:55:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2024-03-24 02:55:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2024-03-24 02:55:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2024-03-24 02:56:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-03-24 01:51:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2024-03-24 02:56:30 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-03-24 02:55:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2024-03-24 02:37:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-03-24 02:55:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2024-03-24 02:56:30 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2024-03-24 02:55:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2024-03-24 02:01:54 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2024-03-24 02:56:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2024-03-24 02:37:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2024-03-24 02:56:30 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2024-03-24 02:56:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2024-03-24 02:37:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2024-03-24 02:18:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2024-03-24 02:55:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2024-03-24 02:55:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:sentry_armor_trim_smithing_template_smithing_trim": "2024-03-24 00:24:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2024-03-24 02:01:54 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-03-24 02:55:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2024-03-24 02:55:15 +0530"
     },
     "done": true
   },
