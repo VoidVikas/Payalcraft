@@ -6,3 +6,4 @@ banned-players.json
 logs
 plugins/playit-gg/config.yml
 plugins/playit-minecraft-plugin.jar
+plugins/DiscordSRV/config.yml
